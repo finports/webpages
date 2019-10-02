@@ -10759,8 +10759,14 @@ header.masthead h1 {
 .mt-5 img {
   max-width: 60px;
   max-height: 60px;
+  margin-bottom: 1.8rem;
 }
 
-.business-contents {
-  margin-top: 20px;
+.business-wrapper {
+  display: block;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
