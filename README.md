@@ -1,4 +1,4 @@
-# [MBY Lab with FinPorts](https://mby.finports.com)
+# [FinPorts](https://finports.com)
 
 주식회사 [핀포츠](https://finports.com)는 다양한 플랫폼을 통해 자산을 안전하고 빠르게 투자하도록 도와드립니다.
 
