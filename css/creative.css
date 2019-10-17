@@ -10760,6 +10760,7 @@ header.masthead h1 {
   max-width: 60px;
   max-height: 60px;
   margin-bottom: 1.8rem;
+  border-radius: 0.3rem;
 }
 
 .business-wrapper {
@@ -10769,4 +10770,12 @@ header.masthead h1 {
   justify-content: center;
   -webkit-align-items: center;
   align-items: center;
+}
+
+.business-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
