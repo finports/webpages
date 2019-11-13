@@ -176,7 +176,23 @@ p {
 #mainNav .navbar-nav > li > a:focus:hover {
 }
 
+.col-md-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+
+@media (min-width: 768px){}
+
+}
+
 @media (min-width: 992px) {
+
+  .logo-container {
+    padding-left: 1.2rem;
+    padding-top: 6rem;
+    margin-bottom: 1rem;
+  }
 
   #mainNav {
 
@@ -237,12 +253,10 @@ footer {
 
 .logo-container {
   padding-left: 1.2rem;
-  padding-top: 6rem;
   margin-bottom: 1rem;
 }
 
 .link-wrapper {
-  float: right;
   padding-top: 1rem;
   max-width: 100%;
   width: auto;
@@ -325,7 +339,7 @@ footer {
 }
 
 .mast-comment {
-  font-family: 'NanumSquareL';
+  font-family: 'NanumSquare';
   margin-top: 10rem;
   max-width: 725px;
   width: auto;
@@ -344,7 +358,7 @@ footer {
 }
 
 .mast-sub-comment {
-  font-family: 'NanumSquareL';
+  font-family: 'NanumSquare';
   font-weight: 400;
   margin-top: 1rem;
   max-width: 453px;
@@ -361,7 +375,7 @@ footer {
 .view-btn {
   padding: 1rem 1.6rem;
   font-family: 'NanumSquare';
-  font-size: 16px;
+  font-size: 0.9vmax;
   margin-top: 3rem;
   text-align: center;
   max-width: 167px;
