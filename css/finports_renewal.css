@@ -253,6 +253,7 @@ footer {
 
 .logo-container {
   padding-left: 1.2rem;
+  padding-top: 6rem;
   margin-bottom: 1rem;
 }
 
@@ -286,7 +287,7 @@ footer {
   height: auto;
   position: absolute;
 }
-
+/*
 .galaxy-1 {
   -webkit-animation:spin 10s linear infinite;
   -moz-animation:spin 10s linear infinite;
@@ -321,7 +322,7 @@ footer {
   -webkit-animation:spin 10s linear infinite;
   -moz-animation:spin 10s linear infinite;
   animation:spin 3s linear infinite;
-}
+} */
 
 .mast-building {
   position: absolute;
