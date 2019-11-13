@@ -87,9 +87,9 @@ p {
   height: auto;
   width: auto;
   background-color: transparent;
-  font-family: 'NanumSquareR';
+  font-family: 'NanumSquare';
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   letter-spacing: normal;
   color: #ffffff;
@@ -99,8 +99,9 @@ p {
 #mainNav .nav-item {
   background-color: #003894;
   min-width: 150px;
-  font-family: 'NanumSquareR';
+  font-family: 'NanumSquare';
   font-size: 16px;
+  font-weight: 400;
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
@@ -174,17 +175,17 @@ p {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
+
 }
 
-.col-md-10 {
-    -ms-flex: 0 0 83.333333%;
-    flex: 0 0 83.333333%;
-    max-width: 83.333333%;
+@media (min-width: 768px){
+  .logo-container {
+    padding-left: 1.2rem;
+    padding-top: 6rem;
+    margin-bottom: 1rem;
   }
-
-@media (min-width: 768px){}
-
 }
+
 
 @media (min-width: 992px) {
 
@@ -249,12 +250,6 @@ footer {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-}
-
-.logo-container {
-  padding-left: 1.2rem;
-  padding-top: 6rem;
-  margin-bottom: 1rem;
 }
 
 .link-wrapper {
@@ -376,6 +371,7 @@ footer {
 .view-btn {
   padding: 1rem 1.6rem;
   font-family: 'NanumSquare';
+  font-weight: 300;
   font-size: 0.9vmax;
   margin-top: 3rem;
   text-align: center;
@@ -491,14 +487,15 @@ footer {
 }
 
 .business-contents-sub {
-  font-family: 'NanumSquareEB';
+  font-family: 'NanumSquare';
+  font-weight: 800;
   text-align: center;
   color: #aaaaaa;
 }
 
 .business-contents-sub h5 {
-  font-family: 'NanumSquareEB';
-  font-weight: 400;
+  font-family: 'NanumSquare';
+  font-weight: 800;
   margin-top: 3rem;
   letter-spacing: -0.8px;
   text-transform: uppercase;
@@ -507,9 +504,9 @@ footer {
 .business-contents-sub h6 {
   max-width: 202px;
   height: 63px;
-  font-family: 'NanumSquareR';
+  font-family: 'NanumSquare';
   font-size: 13px;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   line-height: 1.71;
   letter-spacing: -0.5px;
@@ -544,8 +541,8 @@ footer {
 }
 
 .intro-com h3 {
-  font-family: 'NanumSquareB';
-  font-weight: 400;
+  font-family: 'NanumSquare';
+  font-weight: 700;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -558,7 +555,7 @@ footer {
   max-width: 484px;
   margin-top: 28px;
   opacity: 0.8;
-  font-family: 'NanumSquareL';
+  font-family: 'NanumSquare';
   font-size: 14px;
   font-weight: 300;
   font-stretch: normal;
@@ -601,13 +598,15 @@ footer {
 }
 
 .news-header h1 {
-  font-family: 'NanumSquareEB';
+  font-family: 'NanumSquare';
+  font-weight: 800;
   color: #111111;
 }
 
 .news-header h6 {
   margin-bottom: 75px;
-  font-family: 'NanumSquareL';
+  font-family: 'NanumSquare';
+  font-weight: 300;
   color: #111111;
 }
 
@@ -730,7 +729,8 @@ footer {
 .card-back h6 {
   margin-top: auto 0;
   font-size: 0.7vmax;
-  font-family: 'NanumSquareEB';
+  font-family: 'NanumSquare';
+  font-weight: 500;
 }
 
 .date {
@@ -892,7 +892,8 @@ footer {
 }
 
 .message-contact .message-header {
-  font-family: 'NanumSquareEB';
+  font-family: 'NanumSquare';
+  font-weight: 800;
   font-size: 20px;
   font-weight: normal;
   font-stretch: normal;
@@ -981,9 +982,9 @@ footer {
 
 .footer-policy {
   min-width: 20vmax;
-  font-family: 'NanumSquareR';
+  font-family: 'NanumSquare';
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 400;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -1001,9 +1002,9 @@ footer {
 .copyright {
   float: left;
   text-align: left;
-  font-family: 'NanumSquareR';
+  font-family: 'NanumSquare';
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 400;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.71;
