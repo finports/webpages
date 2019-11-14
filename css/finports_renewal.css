@@ -232,7 +232,7 @@ p {
     margin-top: 10rem;
     max-width: 100%;
     width: auto;
-    max-height: 100%;
+    min-height: 100%;
     height: auto;
     line-height: 1.26;
     font-size: 2rem;
@@ -240,6 +240,20 @@ p {
     color: rgb(255, 255, 255);
     font-weight: 340;
     z-index: 2;
+  }
+
+  .mast-building img {
+    width: auto;
+    height: auto;
+    max-width: 70%;
+    vertical-align: bottom;
+  }
+
+  .mast-galaxy img {
+    width: auto;
+    max-width: 50%;
+    height: auto;
+    position: absolute;
   }
 
   .mast-sub-comment {
@@ -257,10 +271,10 @@ p {
   }
 
   .view-btn {
-    padding: 1rem 1.6rem;
+    padding: 0.7rem 1.6rem;
     font-family: 'NanumSquare';
     font-weight: 300;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-top: 3rem;
     text-align: center;
     max-width: 167px;
@@ -272,6 +286,12 @@ p {
     background-color: transparent
   }
 
+  .row-wrapper .row-col {
+    padding: 50px 10px;
+    min-width: 20%;
+    width: auto;
+    position: relative;
+  }
 
   .slider-container {
     margin: 0 15px;
@@ -289,6 +309,31 @@ p {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+  }
+
+  .slider-item {
+    width: auto;
+    color: inherit;
+    cursor: pointer;
+    perspective: 1000px;
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: auto;
+    min-height: 100%;
+    position: relative;
+    min-width: 25%;
+    width: auto;
+  }
+  .slider-item .card-back img:last-child {
+    max-width: 40%;
+    width: auto;
+    height: auto;
+  }
+
+  .card-back h3 {
+    font-weight: bold;
+    font-size: 0.8rem;
   }
 
   .message-contact {
@@ -346,6 +391,16 @@ p {
 
 @media (min-width: 1024px) and (max-width: 1300px) {
 
+  .body-container {
+    height: 100%;
+    padding-bottom: calc(10rem - 72px);
+    background: url(../img/visual-image-re.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
   .logo-container {
     margin-bottom: 1rem;
     padding: 6rem 3rem 0 3rem;
@@ -353,13 +408,13 @@ p {
 
   .mast-comment {
     font-family: 'NanumSquare';
-    margin-top: 20rem;
+    margin-top: 10rem;
     max-width: 100%;
     width: auto;
     max-height: 100%;
     height: auto;
     line-height: 1.26;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: left;
     color: rgb(255, 255, 255);
     font-weight: 340;
@@ -373,7 +428,7 @@ p {
     max-width: 400px;
     width: 100%;
     opacity: 0.8;
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 1.88;
     letter-spacing: -0.4px;
     text-align: left;
@@ -382,10 +437,10 @@ p {
   }
 
   .view-btn {
-    padding: 1rem 1.6rem;
+    padding: 0.8rem 1.6rem;
     font-family: 'NanumSquare';
     font-weight: 300;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     margin-top: 3rem;
     text-align: center;
     max-width: 167px;
@@ -397,13 +452,75 @@ p {
     background-color: transparent
   }
 
-  .message-contact {
-    padding: 3rem 4rem 0.5rem 4rem;
-    max-width: 70%;
-    height: 100%;
-    background-color: #ffffff;
-    opacity: 0.9;
+  .mast-building {
+    position: absolute;
+    right: 0;
+    z-index: 1;
   }
+
+  .mast-building img {
+    width: auto;
+    height: auto;
+    max-width: 50%;
+    vertical-align: bottom;
+  }
+
+  .mast-galaxy {
+    position: absolute;
+    mix-blend-mode: screen;
+    z-index: 0;
+    width: 80%;
+    height: 100%;
+    top: 25%;
+    left: 20%;
+  }
+
+  .mast-galaxy img {
+    width: auto;
+    max-width: 40%;
+    height: auto;
+    position: absolute;
+  }
+
+  .col-lg-6 {
+    flex: 0 0 50%;
+    min-width: 100%;
+  }
+
+  .row-wrapper .row-col {
+    padding: 50px 10px;
+    min-width: 20%;
+    width: auto;
+    position: relative;
+  }
+
+  .slider-item {
+    width: auto;
+    color: inherit;
+    cursor: pointer;
+    perspective: 1000px;
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: auto;
+    min-height: 100%;
+    position: relative;
+    min-width: 25%;
+    width: auto;
+  }
+
+  .card-back h3 {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .card-back h6 {
+    margin-top: auto 0;
+    font-size: 0.6rem;
+    font-family: 'NanumSquare';
+    font-weight: 300;
+  }
+
   .other-contact {
     max-width: 100%;
     width: 30%;
@@ -412,14 +529,17 @@ p {
     padding: 1rem 0 0 2rem;
   }
 
-  .card-back h3 {
-    font-weight: bold;
-    font-size: 0.8rem;
+  .message-contact {
+    padding: 3rem 4rem 0.5rem 4rem;
+    max-width: 70%;
+    height: 100%;
+    background-color: #ffffff;
+    opacity: 0.9;
   }
 
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1280px) {
 
   .logo-container {
     padding-top: 8rem;
@@ -459,9 +579,16 @@ p {
   }
 
   .card-back h3 {
+    margin-top: 1rem;
     font-size: 1.4rem;
     font-family: 'NanumSquare';
-    font-weight: 500;
+    font-weight: 800;
+  }
+
+  .card-back h6 {
+    font-size: 0.8rem;
+    font-family: 'NanumSquare';
+    font-weight: 300;
   }
 
   .news-contents {
@@ -473,6 +600,57 @@ p {
     z-index: 1;
   }
 
+  .row-wrapper .row-col {
+    padding: 50px 10px;
+    min-width: 215px;
+    width: auto;
+    position: relative;
+  }
+
+}
+
+@media (min-width: 1800px) {
+  .mast-building img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    vertical-align: bottom;
+  }
+
+  .slider-container {
+    margin: 0 15px;
+    width: 100%;
+    max-height: 100%;
+    height: auto;
+    display: block;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .card-back h3 {
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    font-family: 'NanumSquare';
+    font-weight: 800;
+  }
+
+  .card-back h6 {
+    font-size: 1rem;
+    font-family: 'NanumSquare';
+    font-weight: 300;
+  }
+
+  .date {
+    font-size: 1rem;
+  }
 }
 
 #mainNav {
@@ -693,14 +871,6 @@ footer {
   z-index: 1;
 }
 
-.mast-building img {
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  vertical-align: bottom;
-  /* mix-blend-mode: screen; */
-}
-
 .view-btn:hover {
   color: #000;
   border: solid 1px #ffffff;
@@ -767,13 +937,6 @@ footer {
   justify-content: center;
   -webkit-align-items: center;
   align-items: center;
-}
-
-.row-wrapper .row-col {
-  padding: 50px 10px;
-  min-width: 215px;
-  width: auto;
-  position: relative;
 }
 
 .row-wrapper .row-col:hover {
@@ -927,24 +1090,6 @@ footer {
   color: #111111;
 }
 
-.slider-item {
-  height: 100%;
-  min-width: 350px;
-  width: auto;
-  color: inherit;
-  cursor: pointer;
-  perspective: 1000px;
-  position: relative;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  height: auto;
-  min-height: 222px;
-  position: relative;
-  min-width: 215px;
-  width: auto;
-
-}
-
 
 .card-back,
 .card-front {
@@ -1010,13 +1155,6 @@ footer {
   box-shadow: 0 0 10px 10px rgba(26, 87, 230, 0.25);
 }
 
-.card-back h6 {
-  margin-top: auto 0;
-  font-size: 0.7rem;
-  font-family: 'NanumSquare';
-  font-weight: 500;
-}
-
 .date {
   position: absolute;
   font-size: 0.7rem;
@@ -1028,11 +1166,18 @@ footer {
   transform: rotateY(0deg);
 }
 
-.slider-item img {
+.slider-item .card-front img,
+.slider-item .card-back img:first-child {
   max-width: 100%;
   width: auto;
   height: auto;
   margin: 0 auto;
+}
+
+.slider-item .card-back .news-contents img {
+  width: auto;
+  max-width: 25%;
+  height: auto;
 }
 
 .contact-container {
