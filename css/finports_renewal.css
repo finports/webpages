@@ -61,59 +61,194 @@ p {
   transition: background-color 0.2s ease;
 }
 
-@media (max-width: 435px) {
+@media (min-width: 375px) {
 
-  body {
+
+  .card-back h6 {
+    margin-top: auto 0;
+    font-size: 0.5rem;
+    font-family: 'NanumSquare';
+    font-weight: 500;
+  }
+
+  .card-back h3 {
+    font-size: 1.2rem;
+    font-family: 'NanumSquare';
+    font-weight: 500;
+  }
+
+  .logo-container .col-md-10 {
+    width: 70%;
+  }
+
+  .view-btn {
+    padding: 0.5rem 1.6rem;
+    font-family: 'NanumSquare';
+    font-weight: 300;
+    font-size: 0.2rem;
+    margin-top: 3rem;
+    text-align: center;
+    max-width: 167px;
+    max-height: 54px;
     width: auto;
-    max-width: 100%;
-    height: 100%;
+    height: auto;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    background-color: transparent
   }
 
-  .link-wrapper {
-    padding-top: 1rem;
-    max-width: 100%;
-    width: auto;
-    overflow: hidden;
-  }
 
-  .logo-container {
-    max-width: 400px;
-    padding-left: 1.2rem;
-    padding-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .col-md-10 {
-    max-width: 70%;
+  .slider-container {
+    margin: 0 auto;
+    width: 100%;
+    max-height: 100%;
+    height: auto;
+    display: block;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
   .mast-comment {
     font-family: 'NanumSquare';
     margin-top: 10rem;
-    max-width: 400px;
+    max-width: 100%;
     width: auto;
     max-height: 100%;
     height: auto;
-    font-size: 2.6vmax;
     line-height: 1.26;
+    font-size: 1.5rem;
     text-align: left;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     font-weight: 340;
     z-index: 2;
   }
 
-  .mast-comment span {
-    font-weight: 400;
+  .mast-sub-comment {
+    font-family: 'NanumSquare';
+    margin-top: 1rem;
+    max-width: 100%;
+    width: 100%;
+    opacity: 0.8;
+    font-size: 0.7rem;
+    line-height: 1.88;
+    letter-spacing: -0.4px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-weight: 340;
+  }
+
+  .mast-galaxy {
+    position: absolute;
+    mix-blend-mode: screen;
+    z-index: 0;
+    min-width: 80%;
+    height: 100%;
+    top: 20%;
+    left: 10%;
+  }
+
+  .mast-galaxy img {
+    width: auto;
+    max-width: 70%;
+    height: auto;
+    position: absolute;
+  }
+
+  .news-contents {
+    padding: 0.6rem;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    z-index: 1;
+  }
+
+  .message-contact {
+    max-width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    padding: 3rem 4rem 0.5rem;
+  }
+
+  .other-contact {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    background-color: #666666;
+    padding: 1rem;
+  }
+
+  .item-info span:first-child {
+    font-family: 'NanumSquare';
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .item-info span:last-child {
+    font-family: 'NanumSquare';
+    font-size: 0.7rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #aaaaaa;
+  }
+
+  .other-contact-item:first-child .item-info {
+    width: 200px;
+    font-size: 0.8rem;
+  }
+
+  .other-contact-item img,
+  .item-info {
+    padding-left: 2rem;
+    margin-top: 1.8rem;
+    display: inline-block;
+  }
+
+}
+
+@media (min-width: 767px) {
+
+  .mast-comment {
+    font-family: 'NanumSquare';
+    margin-top: 10rem;
+    max-width: 100%;
+    width: auto;
+    max-height: 100%;
+    height: auto;
+    line-height: 1.26;
+    font-size: 2rem;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-weight: 340;
+    z-index: 2;
   }
 
   .mast-sub-comment {
     font-family: 'NanumSquare';
-    font-weight: 400;
-    margin-top: 2rem;
-    max-width: 400px;
+    margin-top: 1rem;
+    max-width: 80%;
     width: 100%;
     opacity: 0.8;
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 1.88;
     letter-spacing: -0.4px;
     text-align: left;
@@ -125,7 +260,7 @@ p {
     padding: 1rem 1.6rem;
     font-family: 'NanumSquare';
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     margin-top: 3rem;
     text-align: center;
     max-width: 167px;
@@ -134,164 +269,210 @@ p {
     height: auto;
     color: #ffffff;
     border: solid 1px #ffffff;
-    background-color: transparent;
+    background-color: transparent
   }
 
-  .contact-container {
-    min-height: 70%;
+
+  .slider-container {
+    margin: 0 15px;
+    width: 85%;
+    max-height: 100%;
     height: auto;
-    background: url("../img/bg-contact.png");
-    padding: 60px 0;
+    display: block;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .message-contact {
+    max-width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    padding: 3rem 4rem 0.5rem;
   }
 
   .other-contact {
     width: 100%;
     height: auto;
-    max-width: 540px;
+    min-height: 100%;
+    background-color: #666666;
+    padding: 1rem 0 0 2rem;
+  }
+
+  .item-info span:first-child {
+    font-family: 'NanumSquare';
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .item-info span:last-child {
+    font-family: 'NanumSquare';
+    font-size: 0.7rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #aaaaaa;
+  }
+
+  .other-contact-item:first-child .item-info {
+    width: 200px;
+    font-size: 0.8rem;
+  }
+
+  .other-contact-item img,
+  .item-info {
+    padding-left: 2rem;
+    margin-top: 1.8rem;
+    display: inline-block;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1300px) {
+
+  .logo-container {
+    margin-bottom: 1rem;
+    padding: 6rem 3rem 0 3rem;
+  }
+
+  .mast-comment {
+    font-family: 'NanumSquare';
+    margin-top: 20rem;
+    max-width: 100%;
+    width: auto;
+    max-height: 100%;
+    height: auto;
+    line-height: 1.26;
+    font-size: 3rem;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-weight: 340;
+    z-index: 2;
+  }
+
+  .mast-sub-comment {
+    font-family: 'NanumSquare';
+    font-weight: 400;
+    margin-top: 1rem;
+    max-width: 400px;
+    width: 100%;
+    opacity: 0.8;
+    font-size: 1.5rem;
+    line-height: 1.88;
+    letter-spacing: -0.4px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-weight: 340;
+  }
+
+  .view-btn {
+    padding: 1rem 1.6rem;
+    font-family: 'NanumSquare';
+    font-weight: 300;
+    font-size: 1.1rem;
+    margin-top: 3rem;
+    text-align: center;
+    max-width: 167px;
+    max-height: 54px;
+    width: auto;
+    height: auto;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    background-color: transparent
+  }
+
+  .message-contact {
+    padding: 3rem 4rem 0.5rem 4rem;
+    max-width: 70%;
+    height: 100%;
+    background-color: #ffffff;
+    opacity: 0.9;
+  }
+  .other-contact {
+    max-width: 100%;
+    width: 30%;
+    height: auto;
+    background-color: #666666;
+    padding: 1rem 0 0 2rem;
+  }
+
+  .card-back h3 {
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+
+}
+
+@media (min-width: 1300px) {
+
+  .logo-container {
+    padding-top: 8rem;
+  }
+
+  .message-contact {
+    padding: 3rem 4rem 0.5rem 4rem;
+    max-width: 100%;
+    width: auto;
+    height: 100%;
+    background-color: #ffffff;
+    opacity: 0.9;
+  }
+
+  .other-contact {
+    width: 100%;
+    height: auto;
     min-height: 100%;
     background-color: #666666;
     padding: 1rem 0 0 0;
   }
 
-}
-/*
-@media (max-width: 992px) {
-
-  .logo-container {
-    padding-left: 1.2rem;
-    padding-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .col-md-10 {
-    -ms-flex: 0 0 83.333333%;
-    flex: 0 0 83.333333%;
-    max-width: 80%;
-  }
-
-  .video-container {
-    min-height: 100%;
+  .mast-galaxy img {
     width: auto;
-    height: auto;
-    background: url("../img/bg.png") no-repeat center;
-    background-size: 100% 100%;
-  }
-} */
-
-@media (min-width: 436px) {
-
-    .link-wrapper {
-      padding-top: 1rem;
-      max-width: 100%;
-      width: auto;
-      overflow: hidden;
-    }
-
-    .logo-container {
-      max-width: 400px;
-      padding-left: 1.2rem;
-      padding-top: 1rem;
-      margin-bottom: 1rem;
-    }
-
-    .col-md-10 {
-      max-width: 70%;
-    }
-
-    .mast-comment {
-      font-family: 'NanumSquare';
-      margin-top: 10rem;
-      max-width: 400px;
-      width: auto;
-      max-height: 100%;
-      height: auto;
-      font-size: 2.6vmax;
-      line-height: 1.26;
-      text-align: left;
-      color: #ffffff;
-      font-weight: 340;
-      z-index: 2;
-    }
-
-    .mast-comment span {
-      font-weight: 400;
-    }
-
-    .mast-sub-comment {
-      font-family: 'NanumSquare';
-      font-weight: 400;
-      margin-top: 2rem;
-      max-width: 400px;
-      width: 100%;
-      opacity: 0.8;
-      font-size: 0.8rem;
-      line-height: 1.88;
-      letter-spacing: -0.4px;
-      text-align: left;
-      color: rgb(255, 255, 255);
-      font-weight: 340;
-    }
-
-    .view-btn {
-      padding: 1rem 1.6rem;
-      font-family: 'NanumSquare';
-      font-weight: 300;
-      font-size: 0.9rem;
-      margin-top: 3rem;
-      text-align: center;
-      max-width: 167px;
-      max-height: 54px;
-      width: auto;
-      height: auto;
-      color: #ffffff;
-      border: solid 1px #ffffff;
-      background-color: transparent;
-    }
-
-    .contact-container {
-      min-height: 70%;
-      height: auto;
-      background: url("../img/bg-contact.png");
-      padding: 60px 0;
-    }
-
-    .other-contact {
-      width: 100%;
-      height: auto;
-      max-width: 540px;
-      min-height: 100%;
-      background-color: #666666;
-      padding: 1rem 0 0 0;
-    }
-
-}
-
-@media (min-width: 992px) {
-
-  .logo-container {
-    max-width: 60%;
-    padding-left: 1.2rem;
-    padding-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .col-md-10 {
     max-width: 100%;
+    height: auto;
+    position: absolute;
   }
 
-
-  #mainNav {
-    -webkit-box-shadow: none;
-    box-shadow: none;
+  .mast-galaxy {
+    position: absolute;
+    mix-blend-mode: screen;
+    z-index: 0;
+    left: 55%;
+    top: 20%;
   }
-  #mainNav.navbar-scrolled .navbar-brand {
 
+  .card-back h3 {
+    font-size: 1.4rem;
+    font-family: 'NanumSquare';
+    font-weight: 500;
   }
-  #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
 
+  .news-contents {
+    padding: 1rem;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    z-index: 1;
   }
+
 }
-
 
 #mainNav {
   max-width: 100%;
@@ -358,6 +539,7 @@ p {
   width: 14%;
   height: 120%;
   line-height: 3;
+  vertical-align: middle;
 }
 
 .link-family {
@@ -390,88 +572,8 @@ p {
 
 }
 
-@media (min-width: 768px){
-  .logo-container {
-    padding-left: 1.2rem;
-    padding-top: 6rem;
-    margin-bottom: 1rem;
-  }
-}
-
-@media (max-width: 361px) {
-
-  .other-contact-item img, .item-info {
-      margin-top: 2rem;
-      display: inline-block;
-  }
-}
-
-@media (min-width: 376px) {
-
-  .other-contact-item img,
-  .item-info {
-    margin-top: 2rem;
-    display: inline-block;
-  }
-  .other-contact-list .other-contact-item:first-child{
-    max-width: 90%;
-    max-height: 50%;
-    width: auto;
-  }
-
-  .other-contact ul {
-    list-style: none;
-    margin: 0;
-  }
-}
-
-@media (min-width: 1103px) {
-
-}
-
 @media (min-width: 992px) {
 
-
-  .mast-comment {
-    font-family: 'NanumSquare';
-    margin-top: 10rem;
-    max-width: 725px;
-    width: auto;
-    max-height: 100%;
-    height: auto;
-    font-size: 3rem;
-    line-height: 1.26;
-    text-align: left;
-    color: #ffffff;
-    font-weight: 340;
-    z-index: 2;
-  }
-
-  .mast-comment span {
-    font-weight: 400;
-  }
-
-  .mast-sub-comment {
-    font-family: 'NanumSquare';
-    font-weight: 400;
-    margin-top: 1rem;
-    max-width: 400px;
-    width: 100%;
-    opacity: 0.8;
-    font-size: 1rem;
-    line-height: 1.88;
-    letter-spacing: -0.4px;
-    text-align: left;
-    color: rgb(255, 255, 255);
-    font-weight: 340;
-  }
-
-
-  .logo-container {
-    padding-left: 1.2rem;
-    padding-top: 6rem;
-    margin-bottom: 1rem;
-  }
 
   #mainNav {
 
@@ -542,24 +644,10 @@ footer {
   margin-left: 0.5rem;
 }
 
-.mast-galaxy {
-  position: absolute;
-  mix-blend-mode: screen;
-  z-index: 0;
-  left: 55%;
-  top: 20%;
-}
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
-.mast-galaxy img {
-  width: auto;
-  min-width: 100%;
-  height: auto;
-  position: absolute;
-}
 
 .galaxy-1 {
   -webkit-animation:spin 10s linear infinite;
@@ -610,22 +698,6 @@ footer {
   max-width: 100%;
   vertical-align: bottom;
   /* mix-blend-mode: screen; */
-}
-
-.view-btn {
-  padding: 1rem 1.6rem;
-  font-family: 'NanumSquare';
-  font-weight: 300;
-  font-size: 0.9vmax;
-  margin-top: 3rem;
-  text-align: center;
-  max-width: 167px;
-  max-height: 54px;
-  width: auto;
-  height: auto;
-  color: #ffffff;
-  border: solid 1px #ffffff;
-  background-color: transparent;
 }
 
 .view-btn:hover {
@@ -854,25 +926,6 @@ footer {
   color: #111111;
 }
 
-.slider-container {
-  margin: 0 15px;
-  width: 100%;
-  max-height: 100%;
-  height: auto;
-  display: block;
-  display: -webkit-flex;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  align-items: center;
-  display: flex;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-
 .slider-item {
   height: 100%;
   min-width: 350px;
@@ -956,149 +1009,19 @@ footer {
   box-shadow: 0 0 10px 10px rgba(26, 87, 230, 0.25);
 }
 
-.news-contents {
-  padding: 2rem;
-  position: absolute;
-  min-width: 100%;
-  min-height: 100%;
-  top: 0;
-  z-index: 1;
-}
-
-.card-back h3 {
-  font-weight: bold;
-  font-size: 1.4vmax;
-}
-
 .card-back h6 {
   margin-top: auto 0;
-  font-size: 0.7vmax;
+  font-size: 0.7rem;
   font-family: 'NanumSquare';
   font-weight: 500;
 }
 
 .date {
-  font-size: 0.7vmax;
-  margin-top: 2vmax;
+  position: absolute;
+  font-size: 0.7rem;
+  bottom: 0;
+  padding-bottom: 1rem;
 }
-
-@media (max-width: 1700px) {
-  .card-back h3 {
-    font-size: 1.5vmax;
-  }
-
-  .card-back h6 {
-    font-size: 1vmax;
-  }
-
-  .date {
-    font-size: 1vmax;
-    margin-top: 2vmax;
-  }
-}
-
-@media (max-width: 1500px) {
-  .news-contents {
-    padding: 1rem 2rem;
-  }
-
-  .card-back h3 {
-    font-size: 2vmax;
-  }
-
-  .card-back h6 {
-    font-size: 0.5vmax;
-  }
-
-  .date {
-    font-size: 1vmax;
-    margin-top: 3.7vmax;
-  }
-}
-
-@media (max-width: 1400px) {
-  .card-back h3 {
-    font-size: 2vmax;
-  }
-
-  .card-back h6 {
-    font-size: 1vmax;
-  }
-
-  .date {
-    font-size: 1vmax;
-    margin-top: 5vmax;
-  }
-}
-
-@media (max-width: 1100px) {
-  .card-back h3 {
-    font-size: 2vmax;
-  }
-
-  .card-back h6 {
-    font-size: 1vmax;
-  }
-
-  .date {
-    font-size: 1vmax;
-    margin-top: 4.7vmax;
-  }
-}
-
-@media (max-width: 1000px) {
-  .card-back h3 {
-    font-size: 2vmax;
-  }
-
-  .card-back h6 {
-    font-size: 1vmax;
-  }
-
-  .date {
-    font-size: 1vmax;
-    margin-top: 3.7vmax;
-  }
-}
-
-@media (max-width: 900px) {
-  .news-contents {
-    padding: 1rem;
-  }
-
-  .card-back h3 {
-    font-size: 1.5vmax;
-  }
-
-  .card-back h6 {
-    font-size: 1vmax;
-  }
-
-  .date {
-    font-size: 1vmax;
-    margin-top: 4vmax;
-  }
-}
-
-@media (max-width: 545px) {
-
-  .mast-galaxy {
-    position: absolute;
-    mix-blend-mode: screen;
-    z-index: 0;
-    left: 20%;
-    top: 35%;
-    width: 60%;
-  }
-
-  .mast-galaxy img {
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    position: absolute;
-  }
-}
-
 
 .slider-item:hover .card-back {
   transform: rotateY(0deg);
@@ -1125,14 +1048,6 @@ footer {
 .contact-header h1,
 .contact-header h6 {
   color: #fff;
-}
-
-.message-contact {
-  padding: 3rem 4rem 0.5rem 4rem;
-  width: 100%;
-  height: 100%;
-  background-color: #ffffff;
-  opacity: 0.9;
 }
 
 .message-contact .message-header {
@@ -1179,58 +1094,12 @@ footer {
   padding: 0 1rem;
 }
 
-.other-contact {
-  width: 100%;
-  height: auto;
-  max-width: 540px;
-  min-height: 100%;
-  background-color: #666666;
-  padding: 1rem 0 0 0;
-}
-
-.other-contact-item:first-child .item-info {
-  width: 200px;
-  font-size: 0.8rem;
-}
-
 .other-contact-item:first-child img {
   margin-bottom: 4rem;
 }
 
 .other-contact-item img {
   margin-bottom: 3rem;
-}
-
-.other-contact-item img,
-.item-info {
-  padding-left: 2rem;
-  margin-top: 1.8rem;
-  display: inline-block;
-}
-
-.item-info span:first-child {
-  font-family: 'NanumSquare';
-  font-size: 1rem;
-  font-weight: 700;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
-}
-
-.item-info span:last-child {
-  font-family: 'NanumSquare';
-  font-size: 0.8rem;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.71;
-  letter-spacing: normal;
-  text-align: left;
-  color: #aaaaaa;
-
 }
 
 .footer-policy {
