@@ -63,6 +63,20 @@ p {
 
 @media (min-width: 375px) {
 
+  .row-wrapper {
+    margin: 0 auto;
+    max-width: 80%;
+    width: auto;
+    max-height: 100%;
+    height: auto;
+    text-align: center;
+    display: block;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
 
   .card-back h6 {
     margin-top: auto 0;
@@ -96,7 +110,6 @@ p {
     border: solid 1px #ffffff;
     background-color: transparent
   }
-
 
   .slider-container {
     margin: 0 auto;
@@ -134,7 +147,7 @@ p {
   .mast-sub-comment {
     font-family: 'NanumSquare';
     margin-top: 1rem;
-    max-width: 100%;
+    max-width: 75%;
     width: 100%;
     opacity: 0.8;
     font-size: 0.7rem;
@@ -160,6 +173,21 @@ p {
     max-width: 70%;
     height: auto;
     position: absolute;
+  }
+
+  .mast-building {
+    position: absolute;
+    left: 66%;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  .mast-building img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    vertical-align: bottom;
+    /* mix-blend-mode: screen; */
   }
 
   .news-contents {
@@ -225,6 +253,40 @@ p {
 
 }
 
+@media (min-width: 411px) {
+
+  .mast-building {
+    position: absolute;
+    left: 66%;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  .mast-building img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    vertical-align: bottom;
+    /* mix-blend-mode: screen; */
+  }
+
+  .row-wrapper {
+    margin: 0 auto;
+    max-width: 100%;
+    width: auto;
+    max-height: 100%;
+    height: auto;
+    text-align: center;
+    display: block;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+}
+
 @media (min-width: 767px) {
 
   .mast-comment {
@@ -271,7 +333,6 @@ p {
     border: solid 1px #ffffff;
     background-color: transparent
   }
-
 
   .slider-container {
     margin: 0 15px;
@@ -344,36 +405,57 @@ p {
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1300px) {
+@media (min-width: 1024px) and (min-height: 1366px) {
 
-  .logo-container {
-    margin-bottom: 1rem;
-    padding: 6rem 3rem 0 3rem;
+  .mast-building {
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  .mast-building img {
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    vertical-align: bottom;
+    /* mix-blend-mode: screen; */
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  .video-row {
+    margin-top: 100px;
   }
 
   .mast-comment {
     font-family: 'NanumSquare';
-    margin-top: 20rem;
+    margin-top: 10rem;
     max-width: 100%;
     width: auto;
     max-height: 100%;
     height: auto;
     line-height: 1.26;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: left;
     color: rgb(255, 255, 255);
     font-weight: 340;
     z-index: 2;
   }
 
+  .mast-comment span {
+    font-weight: 600;
+  }
+
   .mast-sub-comment {
     font-family: 'NanumSquare';
-    font-weight: 400;
     margin-top: 1rem;
-    max-width: 400px;
+    max-width: 60%;
     width: 100%;
     opacity: 0.8;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     line-height: 1.88;
     letter-spacing: -0.4px;
     text-align: left;
@@ -381,11 +463,56 @@ p {
     font-weight: 340;
   }
 
+  .mast-galaxy {
+    position: absolute;
+    mix-blend-mode: screen;
+    z-index: 0;
+    min-width: 28%;
+    height: auto;
+    top: 30%;
+    left: 65%;
+  }
+
+  .mast-galaxy img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+  }
+
+  .mast-building {
+    position: absolute;
+    left: 80%;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  .mast-building img {
+    width: auto;
+    height: auto;
+    max-width: 80%;
+    vertical-align: bottom;
+    /* mix-blend-mode: screen; */
+  }
+
+  .video-container {
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    background: url("../img/bg.png") no-repeat center;
+    background-size: 100% 100%;
+  }
+
+  .logo-container {
+    margin-bottom: 1rem;
+    padding: 6rem 3rem 0 3rem;
+  }
+
   .view-btn {
-    padding: 1rem 1.6rem;
+    padding: 0.8rem 1.6rem;
     font-family: 'NanumSquare';
     font-weight: 300;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     margin-top: 3rem;
     text-align: center;
     max-width: 167px;
@@ -397,6 +524,39 @@ p {
     background-color: transparent
   }
 
+  .row-wrapper {
+    margin: 0 auto;
+    max-width: 80%;
+    width: auto;
+    max-height: 100%;
+    height: auto;
+    text-align: center;
+    display: block;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .slider-container {
+    margin: 0 auto;
+    width: 100%;
+    max-height: 100%;
+    height: auto;
+    display: block;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
   .message-contact {
     padding: 3rem 4rem 0.5rem 4rem;
     max-width: 70%;
@@ -404,6 +564,7 @@ p {
     background-color: #ffffff;
     opacity: 0.9;
   }
+
   .other-contact {
     max-width: 100%;
     width: 30%;
@@ -414,12 +575,76 @@ p {
 
   .card-back h3 {
     font-weight: bold;
-    font-size: 0.8rem;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
   }
 
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1280px) {
+
+  .mast-building {
+    position: absolute;
+    left: 80%;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  .mast-building img {
+    width: auto;
+    height: auto;
+    max-width: 72%;
+    vertical-align: bottom;
+    /* mix-blend-mode: screen; */
+  }
+
+  .row-wrapper {
+    margin: 0 auto;
+    max-width: 100%;
+    width: auto;
+    max-height: 100%;
+    height: auto;
+    text-align: center;
+    display: block;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .card-back h3 {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .card-back h6 {
+    font-size: 1rem;
+    font-family: 'NanumSquare';
+    font-weight: 300;
+  }
+
+}
+
+@media (min-width: 1366px) {
+
+  .view-btn {
+    padding: 1rem 1.6rem;
+    font-family: 'NanumSquare';
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+    max-width: 167px;
+    max-height: 54px;
+    width: auto;
+    height: auto;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    background-color: transparent
+  }
 
   .logo-container {
     padding-top: 8rem;
@@ -457,10 +682,25 @@ p {
     top: 20%;
   }
 
+  .mast-building {
+    position: absolute;
+    left: 76%;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  .mast-building img {
+    width: auto;
+    height: auto;
+    max-width: 78%;
+    vertical-align: bottom;
+    /* mix-blend-mode: screen; */
+  }
+
   .card-back h3 {
     font-size: 1.4rem;
     font-family: 'NanumSquare';
-    font-weight: 500;
+    font-weight: 800;
   }
 
   .news-contents {
@@ -472,6 +712,62 @@ p {
     z-index: 1;
   }
 
+}
+
+@media (min-width: 1440px) {
+
+  .mast-building {
+    position: absolute;
+    left: 72.5%;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  .mast-building img {
+    width: auto;
+    height: auto;
+    max-width: 93%;
+    vertical-align: bottom;
+    /* mix-blend-mode: screen; */
+  }
+
+}
+
+@media (min-width: 1600px) {
+
+  .mast-building {
+    position: absolute;
+    left: 71%;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  .mast-building img {
+    width: auto;
+    height: auto;
+    max-width: 90%;
+    vertical-align: bottom;
+    /* mix-blend-mode: screen; */
+  }
+
+}
+
+@media (min-width: 1920px) {
+
+  .mast-building {
+    position: absolute;
+    left: 67%;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  .mast-building img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    vertical-align: bottom;
+    /* mix-blend-mode: screen; */
+  }
 }
 
 #mainNav {
@@ -632,6 +928,18 @@ footer {
   background-size: cover;
 }
 
+/*
+.body-container {
+  min-height: 100%;
+  padding-bottom: calc(10rem - 72px);
+  background: url("../img/building-image.png"), url("../img/visual-image-re.png");
+  background-position: 0, center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 20% 80%, cover;
+  background-position: 75% bottom, 0;
+} */
+
 .link-wrapper {
   padding-top: 1rem;
   max-width: 100%;
@@ -685,21 +993,6 @@ footer {
   animation:spin 3s linear infinite;
 }
 
-.mast-building {
-  position: absolute;
-  left: 66%;
-  bottom: 0;
-  z-index: 1;
-}
-
-.mast-building img {
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  vertical-align: bottom;
-  /* mix-blend-mode: screen; */
-}
-
 .view-btn:hover {
   color: #000;
   border: solid 1px #ffffff;
@@ -751,21 +1044,6 @@ footer {
 
 .business-contents {
   margin-top: 3rem;
-}
-
-.row-wrapper {
-  margin: 0 15px;
-  max-width: 100%;
-  width: auto;
-  max-height: 100%;
-  height: auto;
-  text-align: center;
-  display: block;
-  display: -webkit-flex;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  align-items: center;
 }
 
 .row-wrapper .row-col {
@@ -827,68 +1105,6 @@ footer {
   line-height: 1.71;
   letter-spacing: -0.5px;
   color: #aaaaaa;
-}
-
-@media (min-width: 1024px) {
-
-  .video-row {
-    margin-top: 100px;
-  }
-
-  .mast-comment {
-    font-family: 'NanumSquare';
-    margin-top: 10rem;
-    max-width: 100%;
-    width: auto;
-    max-height: 100%;
-    height: auto;
-    line-height: 1.26;
-    font-size: 1.5rem;
-    text-align: left;
-    color: rgb(255, 255, 255);
-    font-weight: 340;
-    z-index: 2;
-  }
-
-  .mast-sub-comment {
-    font-family: 'NanumSquare';
-    margin-top: 1rem;
-    max-width: 100%;
-    width: 100%;
-    opacity: 0.8;
-    font-size: 0.7rem;
-    line-height: 1.88;
-    letter-spacing: -0.4px;
-    text-align: left;
-    color: rgb(255, 255, 255);
-    font-weight: 340;
-  }
-
-  .mast-galaxy {
-    position: absolute;
-    mix-blend-mode: screen;
-    z-index: 0;
-    min-width: 80%;
-    height: 100%;
-    top: 20%;
-    left: 10%;
-  }
-
-  .mast-galaxy img {
-    width: auto;
-    max-width: 70%;
-    height: auto;
-    position: absolute;
-  }
-
-
-  .video-container {
-    max-height: 100%;
-    width: auto;
-    height: auto;
-    background: url("../img/bg.png") no-repeat center;
-    background-size: 100% 100%;
-  }
 }
 
 @media (max-width: 1023px) {
@@ -1094,13 +1310,6 @@ footer {
 
 .card-back::before {
   box-shadow: 0 0 10px 10px rgba(26, 87, 230, 0.25);
-}
-
-.card-back h6 {
-  margin-top: auto 0;
-  font-size: 0.7rem;
-  font-family: 'NanumSquare';
-  font-weight: 500;
 }
 
 .date {
