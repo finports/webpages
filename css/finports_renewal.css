@@ -63,6 +63,18 @@ p {
 
 @media (min-width: 375px) {
 
+  .youtube-container {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    padding-bottom: 120%;
+  }
+
+  .logo-container {
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
   .row-wrapper {
     margin: 0 auto;
     max-width: 80%;
@@ -255,6 +267,18 @@ p {
 
 @media (min-width: 411px) {
 
+  .youtube-container {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    padding-bottom: 120%;
+  }
+
+  .logo-container {
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
   .mast-building {
     position: absolute;
     left: 66%;
@@ -430,6 +454,13 @@ p {
     margin-top: 100px;
   }
 
+  .youtube-container {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    padding-bottom: 60%;
+  }
+
   .mast-comment {
     font-family: 'NanumSquare';
     margin-top: 10rem;
@@ -496,11 +527,11 @@ p {
   }
 
   .video-container {
-    max-height: 100%;
+    max-height: 70%;
     width: auto;
     height: auto;
     background: url("../img/bg.png") no-repeat center;
-    background-size: 100% 100%;
+    background-size: 100% 90%;
   }
 
   .logo-container {
@@ -583,6 +614,13 @@ p {
 
 @media (min-width: 1280px) {
 
+  .youtube-container {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    padding-bottom: 100%;
+  }
+
   .mast-building {
     position: absolute;
     left: 80%;
@@ -624,6 +662,13 @@ p {
     font-size: 1rem;
     font-family: 'NanumSquare';
     font-weight: 300;
+  }
+
+  .youtube-container {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    padding-bottom: 40.25%;
   }
 
 }
@@ -768,6 +813,43 @@ p {
     vertical-align: bottom;
     /* mix-blend-mode: screen; */
   }
+
+  .mast-comment {
+    font-family: 'NanumSquare';
+    margin-top: 10rem;
+    max-width: 100%;
+    width: auto;
+    max-height: 100%;
+    height: auto;
+    line-height: 1.26;
+    font-size: 3rem;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-weight: 340;
+    z-index: 2;
+  }
+
+  .mast-sub-comment {
+    font-family: 'NanumSquare';
+    margin-top: 1rem;
+    max-width: 60%;
+    width: 100%;
+    opacity: 0.8;
+    font-size: 1.25rem;
+    line-height: 1.88;
+    letter-spacing: -0.4px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-weight: 340;
+  }
+
+  .video-container {
+    max-height: 50%;
+    width: auto;
+    height: auto;
+    background: url(../img/bg.png) no-repeat center;
+    background-size: 100% 100%;
+  }
 }
 
 #mainNav {
@@ -834,7 +916,7 @@ p {
   bottom: -10%;
   width: 14%;
   height: 120%;
-  line-height: 3;
+  line-height: 2.7;
   vertical-align: middle;
 }
 
@@ -1116,7 +1198,6 @@ footer {
     background: url("../img/bg.png") no-repeat center;
     background-size: 100% 100%;
   }
-
 }
 
 @media (min-width: 1280px) {
@@ -1143,10 +1224,8 @@ footer {
 
 }
 
-
 .video-wrapper {
-  margin-top: 1rem;
-  padding-top: 6rem;
+  padding-top: 4rem;
   margin-bottom: 1rem;
   color: #fff;
 }
@@ -1160,6 +1239,7 @@ footer {
 }
 
 .intro-com h3 {
+  margin-top: 2rem;
   font-family: 'NanumSquare';
   font-weight: 700;
   font-stretch: normal;
@@ -1171,7 +1251,7 @@ footer {
 }
 
 .intro-com h6 {
-  max-width: 484px;
+  max-width: 495px;
   margin-top: 28px;
   opacity: 0.8;
   font-family: 'NanumSquare';
@@ -1189,13 +1269,6 @@ footer {
   margin-bottom: 2rem;
 }
 
-.youtube-container {
-  position: relative;
-  width: 100%;
-  height: 80%;
-  padding-bottom: 56.25%;
-}
-
 .youtube-container iframe {
   position: absolute;
   top: 0;
@@ -1206,9 +1279,9 @@ footer {
 
 .news-container {
   width: 100%;
-  min-height: 63%;
+  min-height: 60%;
   height: auto;
-  margin-top: 10rem;
+  margin-top: 4rem;
   margin-bottom: 0.4rem;
 }
 
