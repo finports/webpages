@@ -4,7 +4,7 @@
 
 ## Preview
 
-![finports view](https://user-images.githubusercontent.com/13456532/66971767-62ea6080-f0cd-11e9-8ed9-c76cf5d72d5b.png)
+![finports view](https://user-images.githubusercontent.com/13456532/69022468-b7e80200-09fe-11ea-9538-c0bea9d9ad8f.png)
 
 **[visit MBY Lab Webpage](https://mby.finports.com)**
 
