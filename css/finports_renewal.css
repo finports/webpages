@@ -111,7 +111,7 @@ p {
     padding: 0.5rem 1.6rem;
     font-family: 'NanumSquare';
     font-weight: 300;
-    font-size: 0.2rem;
+    font-size: 0.8rem;
     margin-top: 3rem;
     text-align: center;
     max-width: 167px;
@@ -154,6 +154,10 @@ p {
     color: rgb(255, 255, 255);
     font-weight: 340;
     z-index: 2;
+  }
+
+  .mast-comment span {
+    font-weight: bold;
   }
 
   .mast-sub-comment {
@@ -914,7 +918,7 @@ p {
   text-align: center;
   background-color: #f6ac19;
   bottom: -10%;
-  width: 14%;
+  min-width: 14%;
   height: 120%;
   line-height: 2.7;
   vertical-align: middle;
