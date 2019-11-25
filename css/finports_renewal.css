@@ -63,6 +63,14 @@ p {
 
 @media (min-width: 375px) {
 
+  .business-container {
+    min-height: 85%;
+    height: auto;
+    width: 100%;
+    margin-top: 7rem;
+    text-align: center;
+  }
+
   .youtube-container {
     position: relative;
     width: 100%;
@@ -104,7 +112,7 @@ p {
   }
 
   .logo-container .col-md-10 {
-    width: 70%;
+    float: left;
   }
 
   .view-btn {
@@ -267,9 +275,33 @@ p {
     display: inline-block;
   }
 
+  .news-container {
+    width: 100%;
+    min-height: 60%;
+    height: auto;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+  }
+
 }
 
 @media (min-width: 411px) {
+
+  .news-container {
+    width: 100%;
+    min-height: 60%;
+    height: auto;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+  }
+
+  .business-container {
+    min-height: 85%;
+    height: auto;
+    width: 100%;
+    margin-top: 7rem;
+    text-align: center;
+  }
 
   .youtube-container {
     position: relative;
@@ -311,6 +343,14 @@ p {
     justify-content: center;
     -webkit-align-items: center;
     align-items: center;
+  }
+
+  .news-container {
+    width: 100%;
+    min-height: 60%;
+    height: auto;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
   }
 
 }
@@ -454,6 +494,26 @@ p {
 
 @media (min-width: 1024px) {
 
+
+  .navbar-nav li a:hover {
+    position: absolute;
+    text-align: center;
+    background-color: #f6ac19;
+    bottom: -10%;
+    min-width: 15%;
+    height: 120%;
+    line-height: 2.7;
+    vertical-align: middle;
+  }
+
+  .business-container {
+    min-height: 85%;
+    height: auto;
+    width: 100%;
+    margin-top: 7rem;
+    text-align: center;
+  }
+
   .video-row {
     margin-top: 100px;
   }
@@ -531,7 +591,7 @@ p {
   }
 
   .video-container {
-    max-height: 70%;
+    max-height: 110%;
     width: auto;
     height: auto;
     background: url("../img/bg.png") no-repeat center;
@@ -540,7 +600,7 @@ p {
 
   .logo-container {
     margin-bottom: 1rem;
-    padding: 6rem 3rem 0 3rem;
+    padding-top: 6rem;
   }
 
   .view-btn {
@@ -614,9 +674,25 @@ p {
     margin-bottom: 1rem;
   }
 
+  .news-container {
+    width: 100%;
+    min-height: 60%;
+    height: auto;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+
 }
 
 @media (min-width: 1280px) {
+
+  .news-container {
+    width: 100%;
+    min-height: 80%;
+    height: auto;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+  }
 
   .youtube-container {
     position: relative;
@@ -678,6 +754,22 @@ p {
 }
 
 @media (min-width: 1366px) {
+
+  .business-container {
+    min-height: 85%;
+    height: auto;
+    width: 100%;
+    margin-top: 7rem;
+    text-align: center;
+  }
+
+  .news-container {
+    width: 100%;
+    min-height: 80%;
+    height: auto;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+  }
 
   .view-btn {
     padding: 1rem 1.6rem;
@@ -803,6 +895,26 @@ p {
 
 @media (min-width: 1920px) {
 
+  .video-row {
+    margin-top: 5rem;
+  }
+
+  .news-container {
+    width: 100%;
+    min-height: 60%;
+    height: auto;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+  }
+
+  .business-container {
+    min-height: 65%;
+    height: auto;
+    width: 100%;
+    margin-top: 7rem;
+    text-align: center;
+  }
+
   .mast-building {
     position: absolute;
     left: 67%;
@@ -839,7 +951,7 @@ p {
     max-width: 60%;
     width: 100%;
     opacity: 0.8;
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: 1.88;
     letter-spacing: -0.4px;
     text-align: left;
@@ -873,7 +985,7 @@ p {
 
 #mainNav .nav-item {
   background-color: #003894;
-  min-width: 150px;
+  min-width: 170px;
   font-family: 'NanumSquare';
   font-size: 16px;
   font-weight: 400;
@@ -913,17 +1025,6 @@ p {
   padding-left: 10px;
 }
 
-.navbar-nav li a:hover {
-  position: absolute;
-  text-align: center;
-  background-color: #f6ac19;
-  bottom: -10%;
-  min-width: 14%;
-  height: 120%;
-  line-height: 2.7;
-  vertical-align: middle;
-}
-
 .link-family {
   position: absolute;
   float: right;
@@ -936,6 +1037,12 @@ p {
   width: auto;
   height: 100%;
   line-height: 3.2;
+}
+
+@media (max-width: 768px) {
+  .link-family {
+    display: none;
+  }
 }
 
 #mainNav .navbar-nav > li > a.active {
@@ -1100,15 +1207,6 @@ footer {
   height: auto;
 }
 
-.business-container {
-  min-height: 65%;
-  height: auto;
-  width: 100%;
-  margin-top: 7rem;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
 .contents-header h1,
 .contents-header h6 {
   text-align: center;
@@ -1207,15 +1305,11 @@ footer {
 @media (min-width: 1280px) {
 
   .video-container {
-    min-height: 100%;
+    max-height: 100%;
     width: auto;
     height: auto;
     background: url("../img/bg.png") no-repeat center;
     background-size: 100% 100%;
-  }
-
-  .video-row {
-    margin-top: 40px;
   }
 
 }
@@ -1279,14 +1373,6 @@ footer {
   left: 0;
   width: 100%;
   height: 70%;
-}
-
-.news-container {
-  width: 100%;
-  min-height: 60%;
-  height: auto;
-  margin-top: 4rem;
-  margin-bottom: 0.4rem;
 }
 
 .news-header {
