@@ -756,7 +756,7 @@ p {
 @media (min-width: 1366px) {
 
   .business-container {
-    min-height: 85%;
+    min-height: 65%;
     height: auto;
     width: 100%;
     margin-top: 7rem;
@@ -765,7 +765,7 @@ p {
 
   .news-container {
     width: 100%;
-    min-height: 80%;
+    max-height: 50%;
     height: auto;
     margin-top: 7rem;
     margin-bottom: 2rem;
@@ -844,6 +844,12 @@ p {
     font-weight: 800;
   }
 
+  .card-back h6 {
+    font-size: 0.85rem;
+    font-family: 'NanumSquare';
+    font-weight: 300;
+  }
+
   .news-contents {
     padding: 1rem;
     position: absolute;
@@ -856,6 +862,14 @@ p {
 }
 
 @media (min-width: 1440px) {
+
+  .news-container {
+    width: 100%;
+    min-height: 60%;
+    height: auto;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+  }
 
   .mast-building {
     position: absolute;
@@ -897,6 +911,14 @@ p {
 
   .video-row {
     margin-top: 5rem;
+  }
+
+  .business-container {
+    min-height: 65%;
+    height: auto;
+    width: 100%;
+    margin-top: 7rem;
+    text-align: center;
   }
 
   .news-container {
