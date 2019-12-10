@@ -22,7 +22,7 @@
 
 ## Bugs and Issues
 
-버그나 이슈가 있으면 dev@finports.com 또는 저희 [깃허브이슈](https://github.com/finports/MBY_Webpage/issues)에 글 남겨주세요.
+버그나 이슈가 있으면 dev@finports.com 또는 저희 [깃허브이슈](https://github.com/finports/webpage/issues)에 글 남겨주세요.
 
 ## Copyright and License
 
