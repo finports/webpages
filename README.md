@@ -8,7 +8,9 @@
 
 **[visit MBY Lab Webpage](https://mby.finports.com)**
 
-**[visit TOOK Webpage](https:took.finports.com)**
+**[visit TOOK Webpage](https://took.finports.com)**
+
+**[visit Validge Webpage](https://validge.finports.com)**
 
 ## Status
 
