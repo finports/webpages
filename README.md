@@ -10,7 +10,7 @@
 
 **[visit TOOK Webpage](https://took.finports.com)**
 
-**[visit Validge Webpage](https://validge.finports.com)**
+**[visit Valridge Webpage](https://valridge.finports.com)**
 
 ## Status
 
