@@ -20,6 +20,18 @@
     $('.navbar-collapse').collapse('hide');
   });
 
+  // $('.language-item').on('click', function() {
+  //   $('.language-item').addClass('active');
+  //   $('.language-item').not($(this)).removeClass('active').slideToggle();
+  //
+  //   if($('.language-item').hasClass("active") === true) {
+  //     console.log($('.language-item').hasClass("active"));
+  //     $(this).find("img").attr("src", $(this).find("img").attr("src").replace("-off.png", "-on.png"));
+  //   }
+  // });
+
+  
+
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
