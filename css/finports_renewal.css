@@ -312,6 +312,13 @@ p {
   } */
 }
 
+@media (max-width: 450px) {
+
+  .contact-item-comment {
+    max-width: 70% !important;
+  }
+}
+
 @media (min-width: 767px) {
 
   .mast-comment {
@@ -733,7 +740,7 @@ p {
 
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1919px) {
 
   .card-back h3 {
     font-size: 1.2vmin !important;
@@ -823,12 +830,39 @@ p {
 }
 
 @media (min-width: 1200px) {
+
+  .card-back h3 {
+    font-size: 1.8vmin !important;
+  }
+
+  .card-back h6 {
+    font-size: 1.2vmin !important;
+  }
+
   .contact-item-comment span {
     font-size: 1.2vh !important;
   }
 }
 
 @media (min-width: 2560px) {
+
+  .mast-comment {
+    margin-top: 20%;
+  }
+
+  .mast-building {
+    position: absolute;
+    left: 62%;
+  }
+
+  .mast-galaxy {
+    position: absolute;
+    mix-blend-mode: screen;
+    z-index: 0;
+    left: 55%;
+    top: 40%;
+  }
+
   .contact-item-comment span {
     font-size: 0.8vmin !important;
   }
@@ -1088,6 +1122,7 @@ footer {
 }
 
 .view-btn {
+  font-size: 0.8vw;
   margin-top: 72px;
   padding: 10px 25px;
   color: #fff;
@@ -1231,7 +1266,6 @@ footer {
   width: auto;
   padding-top: 100px;
   margin-bottom: 250px;
-  width: auto;
   text-align: center;
 }
 
@@ -1635,7 +1669,7 @@ footer {
 }
 
 .contact-item-comment h5 {
-  font-size: 16px;
+  font-size: 1.5vh;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
