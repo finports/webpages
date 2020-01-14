@@ -65,13 +65,19 @@ p {
 }
 
 @media (min-width: 375px) {
-
+/*
   .business-container {
     min-height: 85%;
     height: auto;
     width: 100%;
     margin-top: 7rem;
     text-align: center;
+  } */
+
+  .news-contents img {
+    max-width: 50%;
+    width: auto;
+    height: auto;
   }
 
   .youtube-container {
@@ -100,7 +106,7 @@ p {
     -webkit-align-items: center;
     align-items: center;
   }
-
+/*
   .card-back h6 {
     margin-top: auto 0;
     font-size: 0.5rem;
@@ -110,25 +116,10 @@ p {
   .card-back h3 {
     font-size: 1.2rem;
     font-weight: 500;
-  }
+  } */
 
   .logo-container .col-md-10 {
     float: left;
-  }
-
-  .view-btn {
-    padding: 0.5rem 1.6rem;
-    font-weight: 300;
-    font-size: 0.8rem;
-    margin-top: 3rem;
-    text-align: center;
-    max-width: 167px;
-    max-height: 54px;
-    width: auto;
-    height: auto;
-    color: #ffffff;
-    border: solid 1px #ffffff;
-    background-color: transparent
   }
 
   .slider-container {
@@ -211,7 +202,7 @@ p {
     vertical-align: bottom;
     /* mix-blend-mode: screen; */
   }
-
+/*
   .news-contents {
     padding: 0.6rem;
     position: absolute;
@@ -219,23 +210,7 @@ p {
     min-height: 100%;
     top: 0;
     z-index: 1;
-  }
-
-  .message-contact {
-    max-width: 100%;
-    height: 100%;
-    background-color: rgb(255, 255, 255);
-    opacity: 0.9;
-    padding: 3rem 4rem 0.5rem;
-  }
-
-  .other-contact {
-    width: 100%;
-    height: auto;
-    min-height: 100%;
-    background-color: #666666;
-    padding: 1rem;
-  }
+  } */
 
   .item-info span:first-child {
     font-size: 1.2rem;
@@ -258,46 +233,33 @@ p {
     text-align: left;
     color: #aaaaaa;
   }
-
-  .other-contact-item:first-child .item-info {
-    width: 200px;
-    font-size: 0.8rem;
-  }
-
-  .other-contact-item img,
-  .item-info {
-    padding-left: 2rem;
-    margin-top: 1.8rem;
-    display: inline-block;
-  }
-
+/*
   .news-container {
     width: 100%;
     min-height: 60%;
     height: auto;
     margin-top: 8rem;
     margin-bottom: 2rem;
-  }
-
+  } */
 }
 
 @media (min-width: 411px) {
-
+/*
   .news-container {
     width: 100%;
     min-height: 60%;
     height: auto;
     margin-top: 8rem;
     margin-bottom: 5rem;
-  }
-
+  } */
+/*
   .business-container {
     min-height: 85%;
     height: auto;
     width: 100%;
     margin-top: 7rem;
     text-align: center;
-  }
+  } */
 
   .youtube-container {
     position: relative;
@@ -340,15 +302,14 @@ p {
     -webkit-align-items: center;
     align-items: center;
   }
-
+/*
   .news-container {
     width: 100%;
     min-height: 60%;
     height: auto;
     margin-top: 8rem;
     margin-bottom: 5rem;
-  }
-
+  } */
 }
 
 @media (min-width: 767px) {
@@ -380,21 +341,6 @@ p {
     font-weight: 340;
   }
 
-  .view-btn {
-    padding: 1rem 1.6rem;
-    font-weight: 300;
-    font-size: 1.1rem;
-    margin-top: 3rem;
-    text-align: center;
-    max-width: 167px;
-    max-height: 54px;
-    width: auto;
-    height: auto;
-    color: #ffffff;
-    border: solid 1px #ffffff;
-    background-color: transparent
-  }
-
   .slider-container {
     margin: 0 15px;
     width: 85%;
@@ -412,59 +358,13 @@ p {
     align-items: center;
     flex-wrap: wrap;
   }
-
-  .message-contact {
-    max-width: 100%;
-    height: 100%;
-    background-color: rgb(255, 255, 255);
-    opacity: 0.9;
-    padding: 3rem 4rem 0.5rem;
-  }
-
-  .other-contact {
-    width: 100%;
-    height: auto;
-    min-height: 100%;
-    background-color: #666666;
-    padding: 1rem 0 0 2rem;
-  }
-
-  .item-info span:first-child {
-    font-size: 1.2rem;
-    font-weight: 700;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
-  }
-
-  .item-info span:last-child {
-    font-size: 0.7rem;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.71;
-    letter-spacing: normal;
-    text-align: left;
-    color: #aaaaaa;
-  }
-
-  .other-contact-item:first-child .item-info {
-    width: 200px;
-    font-size: 0.8rem;
-  }
-
-  .other-contact-item img,
-  .item-info {
-    padding-left: 2rem;
-    margin-top: 1.8rem;
-    display: inline-block;
-  }
 }
 
 @media (min-width: 1024px) and (min-height: 1366px) {
+
+  .contact-item-comment {
+    margin-left: 10px !important;
+  }
 
   .mast-building {
     position: absolute;
@@ -483,8 +383,15 @@ p {
 
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1365px) {
 
+  .card-back h3 {
+    font-size: 2vmin !important;
+  }
+
+  .card-back h6 {
+    font-size: 1.3vmin !important;
+  }
 
   .navbar-nav li a:hover {
     position: absolute;
@@ -496,14 +403,14 @@ p {
     line-height: 2.7;
     vertical-align: middle;
   }
-
+/*
   .business-container {
     min-height: 85%;
     height: auto;
     width: 100%;
     margin-top: 7rem;
     text-align: center;
-  }
+  } */
 
   .video-row {
     margin-top: 100px;
@@ -578,33 +485,18 @@ p {
     vertical-align: bottom;
     /* mix-blend-mode: screen; */
   }
-
+/*
   .video-container {
     max-height: 110%;
     width: auto;
     height: auto;
     background: url("../img/bg.png") no-repeat center;
     background-size: 100% 90%;
-  }
+  } */
 
   .logo-container {
     margin-bottom: 1rem;
     padding-top: 6rem;
-  }
-
-  .view-btn {
-    padding: 0.8rem 1.6rem;
-    font-weight: 300;
-    font-size: 0.9rem;
-    margin-top: 3rem;
-    text-align: center;
-    max-width: 167px;
-    max-height: 54px;
-    width: auto;
-    height: auto;
-    color: #ffffff;
-    border: solid 1px #ffffff;
-    background-color: transparent
   }
 
   .row-wrapper {
@@ -639,48 +531,31 @@ p {
     align-items: center;
     flex-wrap: wrap;
   }
-
-  .message-contact {
-    padding: 3rem 4rem 0.5rem 4rem;
-    max-width: 70%;
-    height: 100%;
-    background-color: #ffffff;
-    opacity: 0.9;
-  }
-
-  .other-contact {
-    max-width: 100%;
-    width: 30%;
-    height: auto;
-    background-color: #666666;
-    padding: 1rem 0 0 2rem;
-  }
-
+/*
   .card-back h3 {
     font-weight: bold;
     font-size: 1.3rem;
     margin-bottom: 1rem;
-  }
-
+  } */
+/*
   .news-container {
     width: 100%;
     min-height: 60%;
     height: auto;
     margin-top: 4rem;
     margin-bottom: 2rem;
-  }
-
+  } */
 }
 
 @media (min-width: 1280px) {
-
+/*
   .news-container {
     width: 100%;
     min-height: 80%;
     height: auto;
     margin-top: 7rem;
     margin-bottom: 2rem;
-  }
+  } */
 
   .youtube-container {
     position: relative;
@@ -718,7 +593,7 @@ p {
     -webkit-align-items: center;
     align-items: center;
   }
-
+/*
   .card-back h3 {
     font-weight: bold;
     font-size: 1.3rem;
@@ -729,7 +604,7 @@ p {
   .card-back h6 {
     font-size: 1rem;
     font-weight: 300;
-  }
+  } */
 
   .youtube-container {
     position: relative;
@@ -741,57 +616,25 @@ p {
 }
 
 @media (min-width: 1366px) {
-
+/*
   .business-container {
     min-height: 65%;
     height: auto;
     width: 100%;
     margin-top: 7rem;
     text-align: center;
-  }
-
+  } */
+/*
   .news-container {
     width: 100%;
     max-height: 50%;
     height: auto;
     margin-top: 7rem;
     margin-bottom: 2rem;
-  }
-
-  .view-btn {
-    padding: 1rem 1.6rem;
-    font-weight: 300;
-    font-size: 1rem;
-    margin-top: 3rem;
-    text-align: center;
-    max-width: 167px;
-    max-height: 54px;
-    width: auto;
-    height: auto;
-    color: #ffffff;
-    border: solid 1px #ffffff;
-    background-color: transparent
-  }
+  } */
 
   .logo-container {
     padding-top: 8rem;
-  }
-
-  .message-contact {
-    padding: 3rem 4rem 0.5rem 4rem;
-    max-width: 100%;
-    width: auto;
-    height: 100%;
-    background-color: #ffffff;
-    opacity: 0.9;
-  }
-
-  .other-contact {
-    width: 100%;
-    height: auto;
-    min-height: 100%;
-    background-color: #666666;
-    padding: 1rem 0 0 0;
   }
 
   .mast-galaxy img {
@@ -823,7 +666,7 @@ p {
     vertical-align: bottom;
     /* mix-blend-mode: screen; */
   }
-
+/*
   .card-back h3 {
     font-size: 1.4rem;
     font-weight: 800;
@@ -832,28 +675,27 @@ p {
   .card-back h6 {
     font-size: 0.85rem;
     font-weight: 300;
-  }
+  } */
 
-  .news-contents {
+  /* .news-contents {
     padding: 1rem;
     position: absolute;
     min-width: 100%;
     min-height: 100%;
     top: 0;
     z-index: 1;
-  }
-
+  } */
 }
 
 @media (min-width: 1440px) {
-
+/*
   .news-container {
     width: 100%;
     min-height: 60%;
     height: auto;
     margin-top: 7rem;
     margin-bottom: 2rem;
-  }
+  } */
 
   .mast-building {
     position: absolute;
@@ -893,33 +735,41 @@ p {
 
 @media (min-width: 1920px) {
 
+  .card-back h3 {
+    font-size: 1.2vmin !important;
+  }
+
+  .card-back h6 {
+    font-size: 0.9vmin !important;
+  }
+
   .video-row {
     margin-top: 5rem;
   }
-
+/*
   .business-container {
     min-height: 65%;
     height: auto;
     width: 100%;
     margin-top: 7rem;
     text-align: center;
-  }
-
+  } */
+/*
   .news-container {
     width: 100%;
     min-height: 60%;
     height: auto;
     margin-top: 7rem;
     margin-bottom: 2rem;
-  }
-
+  } */
+/*
   .business-container {
     min-height: 65%;
     height: auto;
     width: 100%;
     margin-top: 7rem;
     text-align: center;
-  }
+  } */
 
   .mast-building {
     position: absolute;
@@ -962,13 +812,35 @@ p {
     color: rgb(255, 255, 255);
     font-weight: 340;
   }
-
+/*
   .video-container {
     max-height: 50%;
     width: auto;
     height: auto;
     background: url(../img/bg.png) no-repeat center;
     background-size: 100% 100%;
+  } */
+}
+
+@media (min-width: 1200px) {
+  .contact-item-comment span {
+    font-size: 1.2vh !important;
+  }
+}
+
+@media (min-width: 2560px) {
+  .contact-item-comment span {
+    font-size: 0.8vmin !important;
+  }
+}
+
+@media (min-width: 3000px) {
+  .card-back h3 {
+    font-size: 1vmin !important;
+  }
+
+  .card-back h6 {
+    font-size: 0.6vmin !important;
   }
 }
 
@@ -1215,6 +1087,14 @@ footer {
   animation:spin 3s linear infinite;
 }
 
+.view-btn {
+  margin-top: 72px;
+  padding: 10px 25px;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+
 .view-btn:hover {
   color: #000;
   border: solid 1px #ffffff;
@@ -1318,26 +1198,25 @@ footer {
 }
 
 @media (max-width: 1023px) {
-
+/*
   .video-container {
-    min-height: 100%;
+
     width: auto;
     height: auto;
     background: url("../img/bg.png") no-repeat center;
     background-size: 100% 100%;
-  }
+  } */
 }
 
 @media (min-width: 1280px) {
-
+/*
   .video-container {
-    max-height: 100%;
+    min-height: 90%;
     width: auto;
     height: auto;
     background: url("../img/bg.png") no-repeat center;
     background-size: 100% 100%;
-  }
-
+  } */
 }
 
 @media (min-width: 1366px) {
@@ -1345,21 +1224,116 @@ footer {
   .logo-container {
     padding-top: 2rem;
   }
+}
 
+.business-container {
+  height: auto;
+  width: auto;
+  padding-top: 100px;
+  margin-bottom: 250px;
+  width: auto;
+  text-align: center;
+}
+
+.business-contents {
+  margin-top: 75px;
+}
+
+.contents-header {
+  text-align: center;
+}
+
+.contents-header h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 0.8;
+}
+
+.contents-header h6 {
+  color: #666666;
+  opacity: 0.7;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+
+.row-wrapper {
+  margin: 0 auto;
+  max-width: 100%;
+  width: auto;
+  max-height: 100%;
+  height: auto;
+  text-align: center;
+  display: block;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.contents-sub {
+  margin-top: 38px;
+  font-stretch: normal;
+  color: #aaaaaa;
+}
+
+.contents-sub h5 {
+  font-weight: 800;
+  letter-spacing: -0.8px;
+}
+
+.contents-sub h6 {
+  max-width: 202px;
+  height: 63px;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: -0.5px;
+}
+
+.row-wrapper .business-item {
+  padding: 50px 10px;
+  min-width: 215px;
+  width: auto;
+  position: relative;
+}
+
+.row-wrapper .business-item:hover {
+  transition: 0.5s;
+  background-color: #f6ac19;
+  text-decoration: none;
+}
+
+.row-wrapper .business-item:hover h5,
+.row-wrapper .business-item:hover h6 {
+  color: #fff;
+}
+
+.business-item img:nth-child(2n) {
+  display: none;
+}
+
+.business-item img:last-child {
+  display: none;
+}
+
+.business-item:hover img:first-child {
+  display: none;
+}
+
+.business-item:hover img:last-child {
+  display: inline;
 }
 
 .video-wrapper {
-  padding-top: 4rem;
   margin-bottom: 1rem;
   color: #fff;
 }
 
 .video-wrapper h6 {
   color: #eeeeee;
-}
-
-.video-header {
-  margin-top: 5rem;
 }
 
 .intro-com h3 {
@@ -1399,11 +1373,19 @@ footer {
   height: 70%;
 }
 
+.news-container {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  padding-bottom: 20rem;
+}
+
 .news-header {
   padding-top: -5rem;
 }
 
 .news-header h1 {
+  text-transform: uppercase;
   font-weight: 800;
   color: #111111;
 }
@@ -1429,9 +1411,7 @@ footer {
   position: relative;
   min-width: 215px;
   width: auto;
-
 }
-
 
 .card-back,
 .card-front {
@@ -1493,13 +1473,23 @@ footer {
   transform: rotateY(-180deg);
 }
 
+.card-back h3 {
+  font-size: 1.1vmin;
+  font-weight: 800;
+}
+
+.card-back h6 {
+  font-size: 0.6vmin;
+  font-weight: 300;
+}
+
 .card-back::before {
   box-shadow: 0 0 10px 10px rgba(26, 87, 230, 0.25);
 }
 
 .date {
   position: absolute;
-  font-size: 0.7rem;
+  font-size: 0.7vmin;
   bottom: 0;
   padding-bottom: 1rem;
 }
@@ -1515,71 +1505,154 @@ footer {
   margin: 0 auto;
 }
 
-.contact-container {
-  min-height: 70%;
+.news-contents {
+  padding: 0 12px 0 10px;
+  margin: 0 auto;
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.video-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: auto;
   height: auto;
-  background: url("../img/bg-contact.png");
-  padding: 6rem 0;
+  background: url("../img/bg.png") no-repeat center;
+  background-size: 100% 100%;
+}
+
+.contact-container {
+  height: auto;
+  width: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url("../img/bg-contact.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.contact-wrapper {
+  width: 100%;
+  height: 100%;
 }
 
 .contact-header {
-  margin-bottom: 76px;
+
 }
 
-.contact-header h1,
+.contact-header h1{
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+
 .contact-header h6 {
-  color: #fff;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: -0.4px;
+  color: #ffffff;
+  margin-bottom: 74px;
 }
 
-.message-contact .message-header {
+.contact-contents-wrapper {
+  max-height: 100%;
+}
+
+.contact-message {
+  padding: 50px;
+  background-color: #ffffff;
+  opacity: 0.9;
+}
+
+.message-header {
   font-weight: 800;
   font-size: 20px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: -0.5px;
   color: #333333;
-  margin-left: -0.9rem;
-  padding-left: 1rem;
 }
 
-.message-contact input {
-  margin-top: 2rem;
+.send-message input {
+  margin-top: 15px;
   height: 54px;
   width: 100%;
   background-color: #e3e3e3;
-  padding-left: 1rem;
+  padding-left: 25px;
 }
 
-.message-contact textarea {
+.send-message textarea {
+  position: relative;
   min-width: 100%;
   height: 172px;
   margin-top: 2rem;
   background-color: #e3e3e3;
-  padding-left: 1rem;
-  padding-top: 1rem;
-  margin-bottom: 3rem;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+
+.message-contents {
+  position: relative;
 }
 
 .btn-send {
-  position: absolute;
-  bottom: 5.2rem;
-  right: 5rem;
   border: none;
   background-color: transparent;
 }
 
-.message-top {
-  padding: 0 1rem;
+.btn-send img {
+  right: 5%;
+  bottom: 20%;
+  position: absolute;
 }
 
-.other-contact-item:first-child img {
-  margin-bottom: 4rem;
+.other-contact {
+  padding: 40px 0 40px 40px;
+  width: 100%;
+  min-height: 100%;
+  background-color: #666666;
 }
 
-.other-contact-item img {
-  margin-bottom: 3rem;
+.contact-item {
+  margin-top: 46px;
+  display: block;
+}
+
+.contact-item img,
+.contact-item-comment {
+  display: inline-block;
+}
+
+.contact-item img {
+  float: left;
+}
+
+.contact-item-comment {
+  margin-left: 20px;
+}
+
+.contact-item-comment h5 {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.contact-item-comment span {
+  font-size: 1vh;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  text-align: left;
+  color: #aaaaaa;
 }
 
 .footer-policy {

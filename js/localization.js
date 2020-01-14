@@ -40,7 +40,8 @@ $.lang.ko = {
   35: '전화번호',
   36: '이용약관',
   37: '개인정보취급방침',
-  38: '이메일무단수신거부'
+  38: '이메일무단수신거부',
+  39: '서울특별시 강남구 도산대로55길 52, 5층 주식회사 핀포츠'
 };
 
 $.lang.en = {
@@ -82,7 +83,8 @@ $.lang.en = {
   35: 'PHONE NUMBER',
   36: 'Legal',
   37: 'Privacy',
-  38: 'Unsubscribe from email'
+  38: 'Unsubscribe from email',
+  39: '5th Floor, Dosan-daero 55-gil 52, Gangnam-gu, Seoul, Republic of Korea'
 };
 
 $.lang.cn = {
@@ -124,7 +126,8 @@ $.lang.cn = {
   35: '手机号码',
   36: '使用条例',
   37: '个人信息管理方针',
-  38: '拒绝无端接收邮件'
+  38: '拒绝无端接收邮件',
+  39: '江南区 岛山大路55街 52'
 };
 
 /**
